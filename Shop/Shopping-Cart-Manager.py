@@ -1,4 +1,3 @@
-# Definicja menu - słownik zawierający dostępne produkty, ich ceny i ilość w magazynie
 menu = {
     "pizza": {"price": 3.00, "stock": 10},
     "nachos": {"price": 4.50, "stock": 5},
@@ -29,7 +28,6 @@ def cartprint():
 
 menuprint()
 
-# Pętla do składania zamówienia
 while True:
     food = input("Select item (or type q to quit, c to see the cart, m to see menu): ").lower()
     if food == "q":
@@ -78,7 +76,6 @@ for food, quantity in cart.items():
     total += subtotal
     print(f"{quantity:3} x {food:12}: ${subtotal:.2f}")
 
-# Rabat 10% jeśli total >= 20
 discount = total * 0.1 if total >= 20 else 0
 if discount > 0:
     print(f"{'Discount':17}: -${discount:.2f}")
