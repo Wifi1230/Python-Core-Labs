@@ -1,3 +1,4 @@
+from card_validator import card_valid
 def show_balance(balance):
     print(f"Your balance is ${balance:.2f}")
 
@@ -62,4 +63,7 @@ def main():
     print("*********************")
 
 if __name__ == '__main__':
+    while not card_valid():
+        print("Your card is invalid. Please try again.")
+        print("*********************")
     main()
