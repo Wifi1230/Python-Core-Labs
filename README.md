@@ -3,7 +3,7 @@ This repository documents my journey in mastering Python's backend capabilities.
 📂 Project Showcase
 
 🎰 01. Casino
-A multi-game platform featuring Blackjack and Dice, designed with a focus on code modularity.
+A multi-game platform featuring Blackjack, Dice and Slots, designed with a focus on code modularity.
 Key Tech: modular programming (`import` modules), global state management, game loop logic.
 Highlight: The project is split into separate logic files (`blackjack.py`, `diceroll.py`, `slots.py`) controlled by a main interface, ensuring code maintainability.
 
