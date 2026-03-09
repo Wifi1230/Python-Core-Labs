@@ -25,3 +25,8 @@ Highlight: Prevents logical errors (like overdrafts) through rigorous conditiona
  🧠 05. Knowledge Quiz
 A dynamic testing tool utilizing Python's collection framework.
 Key Tech: `random` library sampling, list of dictionaries structure.
+
+📊 06. Expense Tracker
+An analytical financial tool that records, categorizes, and analyzes personal spending habits.
+Key Tech: CSV database management, defaultdict for data aggregation, datetime for temporal feature engineering.
+Highlight: Implements an automated "Day-of-the-Week" tracking system to identify spending patterns and includes a robust data deletion mechanism with file-state persistence.
